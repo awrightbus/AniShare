@@ -1,0 +1,12 @@
+.nav-items{
+    list-style:none;
+    color: #868686;
+}
+
+.nav-item:not(:last-child){
+    padding-bottom: 20px;
+}
+
+.nav-item:hover{
+    color: #cecece;
+}
