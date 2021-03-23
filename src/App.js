@@ -5,6 +5,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import MiddleSection from './components/middle-section/MiddleSection';
 import LeftSection from './components/left-section/LeftSection';
+import RightSection from './components/right-section/RightSection';
+
 
 
 function App() {
@@ -14,7 +16,7 @@ function App() {
       <Row>
         <Col><LeftSection /></Col>
         <Col xs={6}> <MiddleSection/> </Col>
-        <Col> Right Section </Col>
+        <Col> <RightSection/> </Col>
       </Row>
       </Container>
       

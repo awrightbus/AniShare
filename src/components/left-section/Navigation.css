@@ -1,6 +1,7 @@
 .nav-items{
     list-style:none;
     color: #868686;
+    cursor: pointer;
 }
 
 .nav-item:not(:last-child){

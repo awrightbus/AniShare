@@ -4,7 +4,7 @@ import './Logo.css'
 function Logo() {
     return (
         <div>
-            <h1 className='logo'>Anime Share</h1>
+            <h1 className='logo'>anime share</h1>
         </div>
     )
 }

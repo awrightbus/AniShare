@@ -1,0 +1,15 @@
+.search-comp{
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.search-bar{
+    border: none;
+    border-radius: 18px;
+    color: white;
+    background-color:#3E3E3E;
+    width: 180px;
+    font-size: 12px;
+    padding:8px 20px
+
+}

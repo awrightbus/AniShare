@@ -5,9 +5,18 @@ import './Hero.css'
 
 function Hero() {
     return (
-        <div >
+        <div className='hero-section'>
        
-        <img className='hero' src={HeroImage} alt='tanjiro'/>
+            <div class='hero-positoning'>
+                <img className='hero' src={HeroImage} alt='tanjiro'/>
+            
+                <h4 className='hero-subheader'>Season 1 <span>2019</span></h4>
+                <h1 className='hero-header'>Demon Slayer</h1>
+                <br/>
+                <p className='hero-description'>It is the Taisho Period in Japan. Tanjiro, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by a demon.</p>
+                <p className='hero-button'>Read more</p>
+            </div>
+           
         
            
         </div>
