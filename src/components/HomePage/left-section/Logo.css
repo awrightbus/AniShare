@@ -1,8 +1,16 @@
 .logo{
     color: #6EA68E;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.3em;
     padding-top: 20px;
     padding-bottom: 10px;
     
 }
+
+@media only screen and (max-width: 991px)  {
+    .logo{
+        font-size: 1.1em;
+    }
+}
+
+

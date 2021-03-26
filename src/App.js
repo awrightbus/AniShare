@@ -1,26 +1,41 @@
 import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import MiddleSection from './components/middle-section/MiddleSection';
-import LeftSection from './components/left-section/LeftSection';
-import RightSection from './components/right-section/RightSection';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import HomePage from './components/HomePage/HomePage';
+import AboutPage from './components/AboutPage/About'
+import AddReview from './components/AddReview/AddReview'
+import AllReviews from './components/AllReviews/AllReviews';
+
+
 
 
 
 function App() {
   return (
-    <div className="App">
-      <Container>
-      <Row>
-        <Col><LeftSection /></Col>
-        <Col xs={6}> <MiddleSection/> </Col>
-        <Col> <RightSection/> </Col>
-      </Row>
-      </Container>
-      
-    </div>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route path='/' exact>
+            <HomePage/ >
+          </Route>
+          <Route path='/about'> 
+            <AboutPage />
+          </Route>
+          <Route path='/all-reviews'>
+            <AllReviews/>
+          </Route>
+          {/* <Route path='/add-review'>
+            <AddReview />
+          </Route> */}
+        </Switch>
+        
+        
+      </div>
+    </Router>
   );
 }
 

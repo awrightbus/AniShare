@@ -1,0 +1,18 @@
+.middle-section{
+    padding-top: 30px;
+    height: 100vh;
+}
+
+
+@media only screen and (max-width: 991px)  {
+    .middle-section{
+        width: 65vw;
+    }
+}
+
+@media only screen and (max-width: 766px)  {
+    .middle-section{
+       
+       
+    }
+}

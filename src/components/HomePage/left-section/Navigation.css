@@ -1,13 +1,27 @@
-.nav-items{
+.nav-item{
     list-style:none;
     color: #868686;
     cursor: pointer;
+    text-decoration: none;
+    
+    
 }
+    
 
-.nav-item:not(:last-child){
+ li{
     padding-bottom: 20px;
+    
+
 }
 
 .nav-item:hover{
     color: #cecece;
 }
+
+
+.nav-item .current{
+    color:#6EA68E;
+}
+
+
+

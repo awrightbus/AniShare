@@ -1,0 +1,12 @@
+.left-section{
+    border-right: 1px solid #313131;
+    height: 100vh;
+    
+}
+
+
+@media only screen and (max-width: 766px)  {
+    .left-section{
+        display: none;
+    }
+}

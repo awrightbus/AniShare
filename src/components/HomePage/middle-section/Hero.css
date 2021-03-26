@@ -44,18 +44,19 @@ img.hero{
     text-align: left;
     top: 150px; 
     /* left: 0;  */
-    right: 75px;
+    right: 40px;
     /* width: 100%;  */
     font-size: .8rem;
     width: 40%;
     color: whitesmoke;
+    
 }
 
 .hero-button{
     position: absolute;
     top: 240px; 
     /* left: 0;  */
-    right: 200px;
+    right: 203px;
     font-size:.7rem;
     padding: 5px 15px;
     /* border: 1px solid black; */
@@ -63,4 +64,50 @@ img.hero{
     background-color: white;
     color: #86B39F;
     font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 1199px)  {
+    .hero-description{
+        right: 80px;
+    }
+}
+
+
+@media only screen and (max-width: 991px)  {
+    .hero-subheader{
+      
+        right: 238px;
+        
+    }
+    .hero-header{
+       
+        right: 95px;
+       
+    }
+    .hero-button{
+    
+        right: 252px;
+       
+    }
+}
+
+@media only screen and (max-width: 768px)  {
+    .hero-subheader{
+      
+        right: 180px;
+        
+    }
+    .hero-header{
+       
+        right: 35px;
+       
+    }
+    .hero-button{
+    
+        right: 193px;
+       
+    }
 }

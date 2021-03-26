@@ -4,10 +4,10 @@ import { Button } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import './Recent.css';
 import 'react-multi-carousel/lib/styles.css';
-import AOT from '../../asset/AOT.png'
-import MHA from '../../asset/MHA.png'
-import Given from '../../asset/Given.png'
-import JJK from '../../asset/JJK.png'
+import AOT from '../../../asset/AOT.png'
+import MHA from '../../../asset/MHA.png'
+import Given from '../../../asset/Given.png'
+import JJK from '../../../asset/JJK.png'
 
 
 
@@ -23,7 +23,7 @@ const responsive = {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2
+      items: 3
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },

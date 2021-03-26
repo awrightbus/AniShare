@@ -1,0 +1,15 @@
+.right-section{
+    border-left: 1px solid #313131;
+    height: 100vh;
+    padding-left: 20px;
+}
+
+
+
+
+
+@media only screen and (max-width: 991px)  {
+    .right-section{
+        display: none;
+    }
+}
